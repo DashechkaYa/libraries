@@ -11,15 +11,21 @@
 
 h1 {
   color: #ff0000;
-  font-size: 16rem;
+  font-size: 14.6rem;
   background-color: #ffc3b1;
-  margin-bottom: 4rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* .first-slider {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .swiper {
   width: 1000px;
   height: 500px;
-  margin-bottom: 4rem;
+  padding-bottom: 10px;
 }
 
 .swiper-slide {
@@ -39,5 +45,95 @@ h1 {
   align-self: flex-end;
 }
 
-.swiper-button-prev {
+.swiper-button {
+  color: #ff0000;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 25px;
+}
+
+.swiper-pagination {
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  width: 35px;
+  height: 3px;
+  border-radius: 8px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 15px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffc3b1;
+} */
+
+.second-slider {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #d9fffe;
+}
+
+.swiper {
+  margin: 100px auto;
+  width: 420px;
+}
+
+.swiper-slide {
+  min-height: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
 }

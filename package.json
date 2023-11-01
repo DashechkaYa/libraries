@@ -2,7 +2,6 @@
   "name": "lesson-14-library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
     "dev": "parcel index.html --open",
     "build": "parcel build index.html"

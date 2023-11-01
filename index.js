@@ -1,21 +1,107 @@
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+// const swiper = new Swiper('.swiper', {
+//   direction: 'horizontal',
+//   loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
+
+var swiper = new Swiper(".mySwiper", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: [0, 0, -400],
+    },
+    next: {
+      translate: ["100%", 0, 0],
+    },
   },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+});
+var swiper2 = new Swiper(".mySwiper2", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: ["-120%", 0, -500],
+    },
+    next: {
+      shadow: true,
+      translate: ["120%", 0, -500],
+    },
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
+});
+var swiper3 = new Swiper(".mySwiper3", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: ["-20%", 0, -1],
+    },
+    next: {
+      translate: ["100%", 0, 0],
+    },
+  },
+});
+var swiper4 = new Swiper(".mySwiper4", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: [0, 0, -800],
+      rotate: [180, 0, 0],
+    },
+    next: {
+      shadow: true,
+      translate: [0, 0, -800],
+      rotate: [-180, 0, 0],
+    },
+  },
+});
+var swiper5 = new Swiper(".mySwiper5", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: ["-125%", 0, -800],
+      rotate: [0, 0, -90],
+    },
+    next: {
+      shadow: true,
+      translate: ["125%", 0, -800],
+      rotate: [0, 0, 90],
+    },
+  },
+});
+var swiper6 = new Swiper(".mySwiper6", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      origin: "left center",
+      translate: ["-5%", 0, -200],
+      rotate: [0, 100, 0],
+    },
+    next: {
+      origin: "right center",
+      translate: ["5%", 0, -200],
+      rotate: [0, -100, 0],
+    },
   },
 });
