@@ -17,18 +17,18 @@ h1 {
   text-align: center;
 }
 
-/* .first-slider {
+.first-slider {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.swiper {
+.swiper-photo {
   width: 1000px;
   height: 500px;
   padding-bottom: 10px;
 }
 
-.swiper-slide {
+.swiper-img {
   width: 100%;
   height: 100%;
   display: flex;
@@ -37,11 +37,11 @@ h1 {
   overflow: hidden;
 }
 
-.swiper-slide__item {
+.swiper-img__item {
   object-fit: contain;
 }
 
-.swiper-slide--align-bottom {
+.swiper-img--align-bottom {
   align-self: flex-end;
 }
 
@@ -72,7 +72,9 @@ h1 {
 
 .swiper-pagination-bullet-active {
   background-color: #ffc3b1;
-} */
+}
+
+/* ------------------------------------------------------------- */
 
 .second-slider {
   padding-top: 4rem;
@@ -80,12 +82,12 @@ h1 {
   background-color: #d9fffe;
 }
 
-.swiper {
+.mySwiper {
   margin: 100px auto;
   width: 420px;
 }
 
-.swiper-slide {
+.swiper-text-slide {
   min-height: 240px;
   height: initial;
   display: flex;
@@ -96,44 +98,45 @@ h1 {
   color: #fff;
   border-radius: 12px;
   padding: 1rem;
+  cursor: pointer;
 }
 
-.swiper-slide:nth-child(1n) {
+.swiper-text-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
 }
 
-.swiper-slide:nth-child(2n) {
+.swiper-text-slide:nth-child(2n) {
   background-color: rgb(0, 140, 255);
 }
 
-.swiper-slide:nth-child(3n) {
+.swiper-text-slide:nth-child(3n) {
   background-color: rgb(10, 184, 111);
 }
 
-.swiper-slide:nth-child(4n) {
+.swiper-text-slide:nth-child(4n) {
   background-color: rgb(211, 122, 7);
 }
 
-.swiper-slide:nth-child(5n) {
+.swiper-text-slide:nth-child(5n) {
   background-color: rgb(118, 163, 12);
 }
 
-.swiper-slide:nth-child(6n) {
+.swiper-text-slide:nth-child(6n) {
   background-color: rgb(180, 10, 47);
 }
 
-.swiper-slide:nth-child(7n) {
+.swiper-text-slide:nth-child(7n) {
   background-color: rgb(35, 99, 19);
 }
 
-.swiper-slide:nth-child(8n) {
+.swiper-text-slide:nth-child(8n) {
   background-color: rgb(0, 68, 255);
 }
 
-.swiper-slide:nth-child(9n) {
+.swiper-text-slide:nth-child(9n) {
   background-color: rgb(218, 12, 218);
 }
 
-.swiper-slide:nth-child(10n) {
+.swiper-text-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
 }
