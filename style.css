@@ -87,7 +87,7 @@ h1 {
 
 .swiper-slide {
   min-height: 240px;
-  height: 100%;
+  height: initial;
   display: flex;
   align-items: center;
   justify-content: center;
